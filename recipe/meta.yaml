@@ -29,6 +29,7 @@ requirements:
     - r-abind
     - r-checkmate
     - r-distributional
+    - r-matrixstats
     - r-pillar
     - r-rlang >=0.4.7
     - r-tensora
@@ -39,6 +40,7 @@ requirements:
     - r-abind
     - r-checkmate
     - r-distributional
+    - r-matrixstats
     - r-pillar
     - r-rlang >=0.4.7
     - r-tensora
