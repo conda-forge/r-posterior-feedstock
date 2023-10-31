@@ -1,4 +1,4 @@
-{% set version = "1.4.1" %}
+{% set version = "1.5.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/posterior_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/posterior/posterior_{{ version }}.tar.gz
-  sha256: 2b8953fa8d6890a105521023c431ddea725465eb95cf9454a88852e43ebb58d3
+  sha256: 4a10307fcae321f2cd4ca7871504a0c6c9152b8473dc9a033721e8dcda18e2de
 
 build:
   merge_build_host: true  # [win]
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
