@@ -1,6 +1,5 @@
 {% set version = "1.6.0" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-posterior
@@ -13,8 +12,7 @@ source:
   sha256: 34612a39fb15a8e3ba6ef5c32a041a4b5f77554216dd774563f46db1150bf40c
 
 build:
-  merge_build_host: true  # [win]
-  number: 0
+  number: 1
   noarch: generic
   rpaths:
     - lib/R/lib/
