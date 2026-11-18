@@ -1,4 +1,4 @@
-{% set version = "1.7.0" %}
+{% set version = "1.8.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/posterior_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/posterior/posterior_{{ version }}.tar.gz
-  sha256: 430305bcceea4c09e04935e9b48ac1510fed88e89caded882846dc0d225780dc
+  sha256: b89ba062c762bdc02ae368bb502f9e389cbd0cc34b73f75064441e45f4572dbf
 
 build:
   number: 0
